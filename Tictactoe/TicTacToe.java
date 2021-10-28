@@ -94,55 +94,55 @@ public class TicTacToe implements ActionListener{
 	public void check(){
 		//x vez
 		if((buttons[0].getText()=="O")&&(buttons[1].getText()=="O")&&(buttons[2].getText()=="O")){
-			xWins(0, 1, 2);
+			oWins(0, 1, 2);
 		}
 		if((buttons[3].getText()=="O")&&(buttons[4].getText()=="O")&&(buttons[5].getText()=="O")){
-			xWins(3, 4, 5);
+			oWins(3, 4, 5);
 		}
 		if((buttons[6].getText()=="O")&&(buttons[7].getText()=="O")&&(buttons[8].getText()=="O")){
-			xWins(6, 7, 8);
+			oWins(6, 7, 8);
 		}
 		if((buttons[0].getText()=="O")&&(buttons[3].getText()=="O")&&(buttons[6].getText()=="O")){
-			xWins(0, 3, 6);
+			oWins(0, 3, 6);
 		}
 		if((buttons[1].getText()=="O")&&(buttons[4].getText()=="O")&&(buttons[7].getText()=="O")){
-			xWins(1, 4, 7);
+			oWins(1, 4, 7);
 		}
 		if((buttons[2].getText()=="O")&&(buttons[5].getText()=="O")&&(buttons[8].getText()=="O")){
-			xWins(2, 5, 8);
+			oWins(2, 5, 8);
 		}
 		if((buttons[0].getText()=="O")&&(buttons[4].getText()=="O")&&(buttons[8].getText()=="O")){
-			xWins(0, 4, 8);
+			oWins(0, 4, 8);
 		}
 		if((buttons[2].getText()=="O")&&(buttons[4].getText()=="O")&&(buttons[6].getText()=="O")){
-			xWins(2, 4, 6);
+			oWins(2, 4, 6);
 		}
 		
 		//O vez
 		
 		if((buttons[0].getText()=="X")&&(buttons[1].getText()=="X")&&(buttons[2].getText()=="X")){
-			oWins(0, 1, 2);
+			xWins(0, 1, 2);
 		}
 		if((buttons[3].getText()=="X")&&(buttons[4].getText()=="X")&&(buttons[5].getText()=="X")){
-			oWins(3, 4, 5);
+			xWins(3, 4, 5);
 		}
 		if((buttons[6].getText()=="X")&&(buttons[7].getText()=="X")&&(buttons[8].getText()=="X")){
-			oWins(6, 7, 8);
+			xWins(6, 7, 8);
 		}
 		if((buttons[0].getText()=="X")&&(buttons[3].getText()=="X")&&(buttons[6].getText()=="X")){
-			oWins(0, 3, 6);
+			xWins(0, 3, 6);
 		}
 		if((buttons[1].getText()=="X")&&(buttons[4].getText()=="X")&&(buttons[7].getText()=="X")){
-			oWins(1, 4, 7);
+			xWins(1, 4, 7);
 		}
 		if((buttons[2].getText()=="X")&&(buttons[5].getText()=="X")&&(buttons[8].getText()=="X")){
-			oWins(2, 5, 8);
+			xWins(2, 5, 8);
 		}
 		if((buttons[0].getText()=="X")&&(buttons[4].getText()=="X")&&(buttons[8].getText()=="X")){
-			oWins(0, 4, 8);
+			xWins(0, 4, 8);
 		}
 		if((buttons[2].getText()=="X")&&(buttons[4].getText()=="X")&&(buttons[6].getText()=="X")){
-			oWins(2, 4, 6);
+			xWins(2, 4, 6);
 		}
 	}
 	
